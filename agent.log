@@ -1,0 +1,789 @@
+16-10-2019 01:54:06,183 EDT INFO  [AgentDaemonMain] [ProductPluginManager@808] Loading plugin: samba-plugin.jar (..\..\bundles\agent-5.8.3\pdk\plugins)
+16-10-2019 01:54:06,199 EDT INFO  [AgentDaemonMain] [ProductPluginManager@808] Loading plugin: sendmail-plugin.xml (..\..\bundles\agent-5.8.3\pdk\plugins)
+16-10-2019 01:54:06,199 EDT INFO  [AgentDaemonMain] [ProductPluginManager@808] Loading plugin: sharepoint-plugin.jar (..\..\bundles\agent-5.8.3\pdk\plugins)
+16-10-2019 01:54:06,308 EDT INFO  [AgentDaemonMain] [ProductPluginManager@808] Loading plugin: spring-plugin.jar (..\..\bundles\agent-5.8.3\pdk\plugins)
+16-10-2019 01:54:06,324 EDT INFO  [AgentDaemonMain] [ProductPluginManager@808] Loading plugin: sqlquery-plugin.jar (..\..\bundles\agent-5.8.3\pdk\plugins)
+16-10-2019 01:54:06,339 EDT INFO  [AgentDaemonMain] [SQLQueryMeasurementPlugin@87] Registered proxy for domain: sql
+16-10-2019 01:54:06,339 EDT INFO  [AgentDaemonMain] [ProductPluginManager@808] Loading plugin: sybase-plugin.jar (..\..\bundles\agent-5.8.3\pdk\plugins)
+16-10-2019 01:54:06,402 EDT INFO  [AgentDaemonMain] [ProductPluginManager@808] Loading plugin: system-plugin.jar (..\..\bundles\agent-5.8.3\pdk\plugins)
+16-10-2019 01:54:06,511 EDT INFO  [AgentDaemonMain] [ProductPluginManager@808] Loading plugin: tomcat-plugin.jar (..\..\bundles\agent-5.8.3\pdk\plugins)
+16-10-2019 01:54:06,651 EDT INFO  [AgentDaemonMain] [ProductPluginManager@808] Loading plugin: vsphere-plugin.jar (..\..\bundles\agent-5.8.3\pdk\plugins)
+16-10-2019 01:54:07,899 EDT INFO  [AgentDaemonMain] [ProductPluginManager@808] Loading plugin: weblogic-plugin.jar (..\..\bundles\agent-5.8.3\pdk\plugins)
+16-10-2019 01:54:08,180 EDT INFO  [AgentDaemonMain] [ProductPluginManager@808] Loading plugin: websphere-plugin.jar (..\..\bundles\agent-5.8.3\pdk\plugins)
+16-10-2019 01:54:08,258 EDT INFO  [AgentDaemonMain] [ProductPluginManager@808] Loading plugin: xen-plugin.jar (..\..\bundles\agent-5.8.3\pdk\plugins)
+16-10-2019 01:54:08,430 EDT INFO  [AgentDaemonMain] [AgentDaemon@700] Product Plugin Manager initalized
+16-10-2019 01:54:08,430 EDT INFO  [AgentDaemonMain] [AgentCommandsServer@152] Registering Agent Commands Service with Agent Transport
+16-10-2019 01:54:08,430 EDT INFO  [AgentDaemonMain] [AgentCommandsServer@166] Agent commands started up
+16-10-2019 01:54:08,430 EDT INFO  [PluginStatusSender] [AgentDaemon@771] Sending plugin status to server
+16-10-2019 01:54:08,445 EDT INFO  [AgentDaemonMain] [AutoApproveConfig@122] Resources auto-approval configuration not provided
+16-10-2019 01:54:08,445 EDT INFO  [AgentDaemonMain] [AutoinventoryCommandsServer@145] Registering AI Commands Service with Agent Transport
+16-10-2019 01:54:08,445 EDT INFO  [AgentDaemonMain] [AutoinventoryCommandsServer@163] Autoinventory Commands Server started up
+16-10-2019 01:54:08,445 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 01:54:08,461 EDT INFO  [AgentDaemonMain] [CommandsServer@326] Commands Server started up
+16-10-2019 01:54:08,476 EDT INFO  [AgentDaemonMain] [ControlCommandsServer@153] Registering Control Commands Service with Agent Transport
+16-10-2019 01:54:08,476 EDT INFO  [AgentDaemonMain] [ControlCommandsServer@162] Control Commands Server started up
+16-10-2019 01:54:08,476 EDT INFO  [AgentDaemonMain] [LiveDataCommandsServer@99] Registering Live Data Commands Service with Agent Transport
+16-10-2019 01:54:08,476 EDT INFO  [AgentDaemonMain] [LiveDataCommandsServer@109] Live Data Commands Server started up
+16-10-2019 01:54:08,539 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 94 ms
+16-10-2019 01:54:08,554 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 01:54:08,554 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 01:54:08,773 EDT INFO  [AgentDaemonMain] [SenderThread@186] Maximum metric batch size set to 500
+16-10-2019 01:54:08,804 EDT INFO  [AgentDaemonMain] [TrackerThread@117] Event report batch size set to 100
+16-10-2019 01:54:08,804 EDT INFO  [AgentDaemonMain] [TopNScheduler@183] Scheduling TopN gathering task at interval of 1 minutes
+16-10-2019 01:54:08,820 EDT INFO  [AgentDaemonMain] [MeasurementCommandsServer@282] Registering Measurement Commands Service with Agent Transport
+16-10-2019 01:54:08,820 EDT INFO  [AgentDaemonMain] [CollectorThread@91] CollectorThread started
+16-10-2019 01:54:08,913 EDT INFO  [PluginStatusSender] [AgentDaemon@773] Successfully sent plugin status to server
+16-10-2019 01:54:09,241 EDT INFO  [AgentDaemonMain] [MeasurementSchedule@181] Number of metrics decoded from the storage - 482
+16-10-2019 01:54:09,256 EDT INFO  [AgentDaemonMain] [MeasurementCommandsServer@316] Measurement Commands Server started up
+16-10-2019 01:54:09,256 EDT INFO  [AgentDaemonMain] [AgentTransportLifecycleImpl@97] Agent is not using new transport.
+16-10-2019 01:54:09,256 EDT INFO  [Thread-6] [ConfigPopulateThread@76] Starting config populate thread
+16-10-2019 01:54:09,288 EDT WARN  [AgentDaemonMain] [SSLConnectionListener@268] Cipher TLS_DHE_RSA_WITH_AES_256_CBC_SHA is not supported, removing from list of negotiable ciphers.
+16-10-2019 01:54:09,288 EDT WARN  [AgentDaemonMain] [SSLConnectionListener@268] Cipher TLS_DHE_DSS_WITH_AES_256_CBC_SHA is not supported, removing from list of negotiable ciphers.
+16-10-2019 01:54:09,288 EDT WARN  [AgentDaemonMain] [SSLConnectionListener@268] Cipher TLS_RSA_WITH_AES_256_CBC_SHA is not supported, removing from list of negotiable ciphers.
+16-10-2019 01:54:09,288 EDT INFO  [AgentDaemonMain] [AgentDaemon@937] Agent started successfully
+16-10-2019 01:54:09,319 EDT INFO  [AgentDaemonMain] [AbstractStatsWriter@78] StatsCollector has started
+16-10-2019 01:54:09,319 EDT INFO  [AgentDaemonMain] [ControlCommandsServer@179] No persisted Control responses were found
+16-10-2019 01:54:09,319 EDT INFO  [AgentDiagnostics] [AgentDiagnostics@52] starting agent diagnostics thread
+16-10-2019 01:54:09,397 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 01:54:09,834 EDT INFO  [ScheduleThread] [ScheduleThread@758] Creating executor for plugin 'dotnet' with a poolsize=1 queuesize=10000
+16-10-2019 01:54:09,834 EDT INFO  [ScheduleThread] [ScheduleThread@758] Creating executor for plugin 'system' with a poolsize=1 queuesize=10000
+16-10-2019 01:54:09,849 EDT INFO  [ScheduleThread] [ScheduleThread@758] Creating executor for plugin 'iis' with a poolsize=1 queuesize=10000
+16-10-2019 01:54:09,849 EDT INFO  [ScheduleThread] [ScheduleThread@758] Creating executor for plugin 'camagent' with a poolsize=1 queuesize=10000
+16-10-2019 01:54:09,880 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 01:54:09,880 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 01:54:10,005 EDT INFO  [Thread-6] [ConfigPopulateThread@114] Received measurement configuration for Win32 '1:10264'
+16-10-2019 01:54:10,005 EDT INFO  [Thread-6] [ConfigPopulateThread@120] Creating config track plugin 1:10264
+16-10-2019 01:54:10,005 EDT INFO  [Thread-6] [ConfigTrackPlugin@77] init file watcher for: 1:10264
+16-10-2019 01:54:10,302 EDT INFO  [Thread-6] [ConfigPopulateThread@128] Creating log track plugin 1:10264
+16-10-2019 01:54:10,302 EDT INFO  [Thread-6] [RunnableTrackThread@65] RunnableLogThread started
+16-10-2019 01:54:11,487 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#32)\# Bytes in all Heaps
+16-10-2019 01:54:11,487 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#32)\# of Exceps Thrown
+16-10-2019 01:54:11,487 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#32)\# of current physical Threads
+16-10-2019 01:54:11,487 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(iexplore)\# of Exceps Thrown
+16-10-2019 01:54:11,503 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(iexplore)\# Bytes in all Heaps
+16-10-2019 01:54:11,503 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(iexplore)\# of current physical Threads
+16-10-2019 01:54:11,503 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#31)\# of Exceps Thrown
+16-10-2019 01:54:11,503 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#31)\# Bytes in all Heaps
+16-10-2019 01:54:11,503 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#31)\# of current physical Threads
+16-10-2019 01:54:11,503 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#30)\# of Exceps Thrown
+16-10-2019 01:54:11,518 EDT ERROR [system-0] [ScheduleThread@426] Metric Value not found: Failed to invoke getProcCpu[Pid.Service.eq=%service_name%]: Query did not match any processes: Pid.Service.eq=%service_name%
+16-10-2019 01:54:11,518 EDT ERROR [system-0] [ScheduleThread@426] Metric Value not found: Failed to invoke getProcFd[Pid.Service.eq=%service_name%]: Query did not match any processes: Pid.Service.eq=%service_name%
+16-10-2019 01:54:11,518 EDT ERROR [system-0] [ScheduleThread@426] Metric Value not found: Failed to invoke getProcMem[Pid.Service.eq=%service_name%]: Query did not match any processes: Pid.Service.eq=%service_name%
+16-10-2019 01:54:11,518 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#30)\# of current physical Threads
+16-10-2019 01:54:11,534 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#30)\# Bytes in all Heaps
+16-10-2019 01:54:11,534 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#36)\# of Exceps Thrown
+16-10-2019 01:54:11,550 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#36)\# Bytes in all Heaps
+16-10-2019 01:54:11,550 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#36)\# of current physical Threads
+16-10-2019 01:54:11,565 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#35)\# of current physical Threads
+16-10-2019 01:54:11,565 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#35)\# of Exceps Thrown
+16-10-2019 01:54:11,565 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#35)\# Bytes in all Heaps
+16-10-2019 01:54:11,565 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#34)\# of Exceps Thrown
+16-10-2019 01:54:11,565 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#34)\# of current physical Threads
+16-10-2019 01:54:11,581 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#34)\# Bytes in all Heaps
+16-10-2019 01:54:11,581 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(XPolicySupportServer#2)\# of Exceps Thrown
+16-10-2019 01:54:11,581 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(XPolicySupportServer#2)\# of current physical Threads
+16-10-2019 01:54:11,581 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(XPolicySupportServer#2)\# Bytes in all Heaps
+16-10-2019 01:54:11,596 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#33)\# of Exceps Thrown
+16-10-2019 01:54:11,596 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#33)\# of current physical Threads
+16-10-2019 01:54:11,612 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#33)\# Bytes in all Heaps
+16-10-2019 01:54:11,612 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(SCNotification#1)\# Bytes in all Heaps
+16-10-2019 01:54:11,612 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(SCNotification#1)\# of current physical Threads
+16-10-2019 01:54:11,628 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(SCNotification#1)\# of Exceps Thrown
+16-10-2019 01:54:11,628 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(wsmprovhost#1)\# of Exceps Thrown
+16-10-2019 01:54:11,628 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(wsmprovhost#1)\# of current physical Threads
+16-10-2019 01:54:11,628 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(wsmprovhost#1)\# Bytes in all Heaps
+16-10-2019 01:54:11,643 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(XSDGSkd)\# of Exceps Thrown
+16-10-2019 01:54:11,643 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(XSDGSkd)\# of current physical Threads
+16-10-2019 01:54:11,643 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(XSDGSkd)\# Bytes in all Heaps
+16-10-2019 01:54:11,846 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(XSLicenseComplianceRefresh)\# of Exceps Thrown
+16-10-2019 01:54:11,862 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(XSLicenseComplianceRefresh)\# of current physical Threads
+16-10-2019 01:54:11,862 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(XSLicenseComplianceRefresh)\# Bytes in all Heaps
+16-10-2019 01:54:11,877 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#21)\# Bytes in all Heaps
+16-10-2019 01:54:11,877 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#21)\# of Exceps Thrown
+16-10-2019 01:54:11,893 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#21)\# of current physical Threads
+16-10-2019 01:54:11,893 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#20)\# Bytes in all Heaps
+16-10-2019 01:54:11,908 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#20)\# of Exceps Thrown
+16-10-2019 01:54:11,908 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#20)\# of current physical Threads
+16-10-2019 01:54:11,924 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#23)\# of current physical Threads
+16-10-2019 01:54:11,924 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#23)\# of Exceps Thrown
+16-10-2019 01:54:11,924 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#23)\# Bytes in all Heaps
+16-10-2019 01:54:11,940 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#22)\# Bytes in all Heaps
+16-10-2019 01:54:11,940 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#22)\# of current physical Threads
+16-10-2019 01:54:11,940 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#22)\# of Exceps Thrown
+16-10-2019 01:54:11,940 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#25)\# of Exceps Thrown
+16-10-2019 01:54:11,955 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#25)\# Bytes in all Heaps
+16-10-2019 01:54:11,955 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#25)\# of current physical Threads
+16-10-2019 01:54:11,955 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#24)\# of Exceps Thrown
+16-10-2019 01:54:11,955 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#24)\# of current physical Threads
+16-10-2019 01:54:11,955 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#24)\# Bytes in all Heaps
+16-10-2019 01:54:11,971 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#27)\# of Exceps Thrown
+16-10-2019 01:54:11,971 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#27)\# of current physical Threads
+16-10-2019 01:54:11,971 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#27)\# Bytes in all Heaps
+16-10-2019 01:54:11,986 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#26)\# Bytes in all Heaps
+16-10-2019 01:54:11,986 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#26)\# of current physical Threads
+16-10-2019 01:54:11,986 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#26)\# of Exceps Thrown
+16-10-2019 01:54:12,002 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#29)\# Bytes in all Heaps
+16-10-2019 01:54:12,002 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#29)\# of current physical Threads
+16-10-2019 01:54:12,002 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#29)\# of Exceps Thrown
+16-10-2019 01:54:12,018 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#28)\# of current physical Threads
+16-10-2019 01:54:12,018 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#28)\# of Exceps Thrown
+16-10-2019 01:54:12,018 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#28)\# Bytes in all Heaps
+16-10-2019 01:54:12,018 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(XPolicySupportServer#1)\# of current physical Threads
+16-10-2019 01:54:12,018 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(XPolicySupportServer#1)\# of Exceps Thrown
+16-10-2019 01:54:12,018 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(XPolicySupportServer#1)\# Bytes in all Heaps
+16-10-2019 01:54:12,033 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(mmc)\# of current physical Threads
+16-10-2019 01:54:12,033 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(mmc)\# of Exceps Thrown
+16-10-2019 01:54:12,033 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(mmc)\# Bytes in all Heaps
+16-10-2019 01:54:12,049 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#40)\# of Exceps Thrown
+16-10-2019 01:54:12,049 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#40)\# of current physical Threads
+16-10-2019 01:54:12,049 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#40)\# Bytes in all Heaps
+16-10-2019 01:54:12,064 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(mmc#1)\# Bytes in all Heaps
+16-10-2019 01:54:12,064 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(mmc#1)\# of Exceps Thrown
+16-10-2019 01:54:12,064 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(mmc#1)\# of current physical Threads
+16-10-2019 01:54:12,111 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#19)\# Bytes in all Heaps
+16-10-2019 01:54:12,111 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#19)\# of current physical Threads
+16-10-2019 01:54:12,127 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#19)\# of Exceps Thrown
+16-10-2019 01:54:12,127 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#17)\# of Exceps Thrown
+16-10-2019 01:54:12,127 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#17)\# Bytes in all Heaps
+16-10-2019 01:54:12,127 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#17)\# of current physical Threads
+16-10-2019 01:54:12,142 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#18)\# of Exceps Thrown
+16-10-2019 01:54:12,142 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#18)\# of current physical Threads
+16-10-2019 01:54:12,142 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#18)\# Bytes in all Heaps
+16-10-2019 01:54:12,142 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#15)\# Bytes in all Heaps
+16-10-2019 01:54:12,158 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#15)\# of Exceps Thrown
+16-10-2019 01:54:12,158 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#15)\# of current physical Threads
+16-10-2019 01:54:12,158 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#16)\# Bytes in all Heaps
+16-10-2019 01:54:12,158 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#16)\# of current physical Threads
+16-10-2019 01:54:12,174 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#16)\# of Exceps Thrown
+16-10-2019 01:54:12,174 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#13)\# Bytes in all Heaps
+16-10-2019 01:54:12,174 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#13)\# of Exceps Thrown
+16-10-2019 01:54:12,174 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#13)\# of current physical Threads
+16-10-2019 01:54:12,189 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#14)\# Bytes in all Heaps
+16-10-2019 01:54:12,189 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#14)\# of current physical Threads
+16-10-2019 01:54:12,189 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#14)\# of Exceps Thrown
+16-10-2019 01:54:12,189 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#11)\# of current physical Threads
+16-10-2019 01:54:12,189 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#11)\# of Exceps Thrown
+16-10-2019 01:54:12,189 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#11)\# Bytes in all Heaps
+16-10-2019 01:54:12,189 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#12)\# of Exceps Thrown
+16-10-2019 01:54:12,205 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#12)\# of current physical Threads
+16-10-2019 01:54:12,205 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#12)\# Bytes in all Heaps
+16-10-2019 01:54:12,220 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#10)\# Bytes in all Heaps
+16-10-2019 01:54:12,220 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#10)\# of current physical Threads
+16-10-2019 01:54:12,220 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#10)\# of Exceps Thrown
+16-10-2019 01:54:12,298 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CcmExec)\# Bytes in all Heaps
+16-10-2019 01:54:12,298 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CcmExec)\# of Exceps Thrown
+16-10-2019 01:54:12,314 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CcmExec)\# of current physical Threads
+16-10-2019 01:54:12,408 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(SCNotification)\# of current physical Threads
+16-10-2019 01:54:12,408 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(SCNotification)\# of Exceps Thrown
+16-10-2019 01:54:12,423 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(SCNotification)\# Bytes in all Heaps
+16-10-2019 01:54:12,439 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#8)\# of Exceps Thrown
+16-10-2019 01:54:12,439 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#8)\# of current physical Threads
+16-10-2019 01:54:12,439 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#8)\# Bytes in all Heaps
+16-10-2019 01:54:12,454 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#9)\# Bytes in all Heaps
+16-10-2019 01:54:12,454 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#9)\# of Exceps Thrown
+16-10-2019 01:54:12,454 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#9)\# of current physical Threads
+16-10-2019 01:54:12,501 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#4)\# of Exceps Thrown
+16-10-2019 01:54:12,501 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#4)\# of current physical Threads
+16-10-2019 01:54:12,501 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#4)\# Bytes in all Heaps
+16-10-2019 01:54:12,517 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#5)\# of Exceps Thrown
+16-10-2019 01:54:12,517 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#5)\# of current physical Threads
+16-10-2019 01:54:12,517 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#5)\# Bytes in all Heaps
+16-10-2019 01:54:12,532 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#6)\# Bytes in all Heaps
+16-10-2019 01:54:12,532 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#6)\# of Exceps Thrown
+16-10-2019 01:54:12,548 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#6)\# of current physical Threads
+16-10-2019 01:54:12,548 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#7)\# Bytes in all Heaps
+16-10-2019 01:54:12,548 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#7)\# of current physical Threads
+16-10-2019 01:54:12,548 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#7)\# of Exceps Thrown
+16-10-2019 01:54:12,548 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect)\# of Exceps Thrown
+16-10-2019 01:54:12,564 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect)\# of current physical Threads
+16-10-2019 01:54:12,564 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect)\# Bytes in all Heaps
+16-10-2019 01:54:12,564 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#1)\# Bytes in all Heaps
+16-10-2019 01:54:12,579 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#1)\# of current physical Threads
+16-10-2019 01:54:12,579 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#1)\# of Exceps Thrown
+16-10-2019 01:54:12,579 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#2)\# of Exceps Thrown
+16-10-2019 01:54:12,579 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#2)\# of current physical Threads
+16-10-2019 01:54:12,579 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#2)\# Bytes in all Heaps
+16-10-2019 01:54:12,595 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect#3)\# Bytes in all Heaps
+16-10-2019 01:54:12,595 EDT INFO  [system-0] [PDH@148] [static] Reading dll fom: jar:file:C:\mwatch\hyperic-hq-agent-5.8.3_Windows_64_Bit\hyperic-hq-agent-5.8.3\wrapper\sbin\..\..\bundles\agent-5.8.3\pdk\plugins\system-plugin.jar!/priv_lib/x64/system_pdh.dll
+16-10-2019 01:54:12,595 EDT INFO  [system-0] [PDH@149] [static] Writing dll to: C:\mwatch\hyperic-hq-agent-5.8.3_Windows_64_Bit\hyperic-hq-agent-5.8.3\wrapper\sbin\..\..\bundles\agent-5.8.3\tmp\system_pdh.dll
+16-10-2019 01:54:12,595 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect#3)\# of Exceps Thrown
+16-10-2019 01:54:12,595 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect#3)\# of current physical Threads
+16-10-2019 01:54:12,595 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(powershell)\# of current physical Threads
+16-10-2019 01:54:12,595 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(powershell)\# of Exceps Thrown
+16-10-2019 01:54:12,610 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(powershell)\# Bytes in all Heaps
+16-10-2019 01:54:12,610 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(wsmprovhost)\# of current physical Threads
+16-10-2019 01:54:12,626 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(wsmprovhost)\# of Exceps Thrown
+16-10-2019 01:54:12,626 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(wsmprovhost)\# Bytes in all Heaps
+16-10-2019 01:54:17,790 EDT INFO  [autoinventory-scanner] [AutoinventoryCommandsServer@367] no resource is auto approved
+16-10-2019 01:54:17,915 EDT INFO  [autoinventory-scanner] [AutoinventoryCommandsServer@253] Autoinventory report successfully sent to server.
+16-10-2019 01:54:18,929 EDT INFO  [autoinventory-scanner] [ScanManager@174] starting runtime scan
+16-10-2019 01:54:18,929 EDT INFO  [autoinventory-scanner] [RuntimeAutodiscoverer@274] Running runtime autodiscovery for FileServer
+16-10-2019 01:54:18,929 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 01:54:18,929 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 01:54:18,945 EDT INFO  [autoinventory-scanner] [RuntimeAutodiscoverer@278] FileServer discovery took 0 ms
+16-10-2019 01:54:18,945 EDT INFO  [autoinventory-scanner] [RuntimeAutodiscoverer@274] Running runtime autodiscovery for HQ Agent
+16-10-2019 01:54:18,961 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 01:54:18,961 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 01:54:18,961 EDT INFO  [autoinventory-scanner] [RuntimeAutodiscoverer@278] HQ Agent discovery took 0 ms
+16-10-2019 01:54:18,961 EDT INFO  [autoinventory-scanner] [RuntimeAutodiscoverer@274] Running runtime autodiscovery for IIS 7.x
+16-10-2019 01:54:18,976 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 01:54:18,976 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 01:54:19,809 EDT INFO  [autoinventory-scanner] [RuntimeAutodiscoverer@278] IIS 7.x discovery took 833 ms
+16-10-2019 01:54:19,809 EDT INFO  [autoinventory-scanner] [RuntimeAutodiscoverer@274] Running runtime autodiscovery for NetworkServer
+16-10-2019 01:54:19,809 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 01:54:19,809 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 01:54:19,824 EDT INFO  [autoinventory-scanner] [RuntimeAutodiscoverer@278] NetworkServer discovery took 15 ms
+16-10-2019 01:54:19,824 EDT INFO  [autoinventory-scanner] [RuntimeAutodiscoverer@274] Running runtime autodiscovery for Net Services
+16-10-2019 01:54:19,840 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 01:54:19,840 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 01:54:19,840 EDT INFO  [autoinventory-scanner] [RuntimeAutodiscoverer@278] Net Services discovery took 0 ms
+16-10-2019 01:54:19,840 EDT INFO  [autoinventory-scanner] [RuntimeAutodiscoverer@274] Running runtime autodiscovery for ProcessServer
+16-10-2019 01:54:19,856 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 01:54:19,856 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 01:54:19,856 EDT INFO  [autoinventory-scanner] [RuntimeAutodiscoverer@278] ProcessServer discovery took 0 ms
+16-10-2019 01:54:19,856 EDT INFO  [autoinventory-scanner] [RuntimeAutodiscoverer@274] Running runtime autodiscovery for .NET 4.0
+16-10-2019 01:54:19,871 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 01:54:19,871 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 01:54:20,355 EDT INFO  [autoinventory-scanner] [RuntimeAutodiscoverer@278] .NET 4.0 discovery took 484 ms
+16-10-2019 01:54:20,355 EDT INFO  [autoinventory-scanner] [RuntimeAutodiscoverer@274] Running runtime autodiscovery for HyperVServer
+16-10-2019 01:54:20,355 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 01:54:20,355 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 01:54:20,371 EDT INFO  [autoinventory-scanner] [RuntimeAutodiscoverer@278] HyperVServer discovery took 16 ms
+16-10-2019 01:54:20,371 EDT INFO  [autoinventory-scanner] [RuntimeAutodiscoverer@274] Running runtime autodiscovery for WindowsServer
+16-10-2019 01:54:20,371 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 01:54:20,371 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 01:54:20,371 EDT INFO  [autoinventory-scanner] [RuntimeAutodiscoverer@278] WindowsServer discovery took 0 ms
+16-10-2019 01:54:20,480 EDT INFO  [autoinventory-scanner] [ScanManager@176] runtime scan complete 1551 ms
+16-10-2019 02:00:01,423 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 02:09:08,860 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 02:09:08,860 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 02:09:08,860 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 02:09:08,860 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 02:09:09,890 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 02:09:10,529 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 02:09:10,545 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 02:10:01,059 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 02:20:01,058 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 02:24:08,914 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 02:24:08,914 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 02:24:08,929 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 02:24:08,929 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 02:24:10,084 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 02:24:10,817 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 02:24:10,817 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 02:30:01,368 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 02:39:09,275 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 02:39:09,275 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 02:39:09,275 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 02:39:09,275 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 02:39:10,398 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 02:39:11,084 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 02:39:11,084 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 02:40:00,037 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 02:50:00,283 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 02:54:09,668 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 02:54:09,668 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 02:54:09,668 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 02:54:09,668 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 02:54:10,916 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 02:54:11,649 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 02:54:11,649 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 03:00:01,401 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 03:09:10,431 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 03:09:10,431 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 03:09:10,431 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 03:09:10,431 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 03:09:11,663 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 03:09:12,412 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 03:09:12,412 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 03:10:01,037 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 03:20:00,037 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 03:24:10,934 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 03:24:10,934 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 03:24:10,934 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 03:24:10,934 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 03:24:12,198 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 03:24:12,915 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 03:24:12,915 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 03:30:00,374 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 03:39:11,464 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 03:39:11,464 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 03:39:11,464 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 03:39:11,464 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 03:39:12,758 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 03:39:13,570 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 03:39:13,570 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 03:40:01,040 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 03:50:00,319 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 03:54:12,276 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 03:54:12,276 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 03:54:12,276 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 03:54:12,276 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 03:54:13,665 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 03:54:14,694 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 03:54:14,694 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 04:00:01,391 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 04:09:13,165 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 04:09:13,165 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 04:09:13,165 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 04:09:13,165 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 04:09:14,226 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 04:09:14,913 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 04:09:14,913 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 04:10:00,043 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 04:20:00,040 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 04:24:13,387 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 04:24:13,387 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 04:24:13,387 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 04:24:13,387 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 04:24:14,588 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 04:24:15,352 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 04:24:15,352 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 04:30:01,392 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 04:39:13,964 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 04:39:13,964 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 04:39:13,964 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 04:39:13,964 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 04:39:15,118 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 04:39:15,820 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 04:39:15,820 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 04:40:01,325 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 04:50:00,305 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 04:54:14,338 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 04:54:14,338 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 04:54:14,338 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 04:54:14,338 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 04:54:15,664 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 04:54:16,460 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 04:54:16,460 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 05:00:01,408 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 05:09:15,071 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 05:09:15,071 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 05:09:15,071 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 05:09:15,071 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 05:09:16,116 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 05:09:16,756 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 05:09:16,756 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 05:10:01,044 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 05:20:00,324 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 05:24:15,075 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 05:24:15,075 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 05:24:15,075 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 05:24:15,075 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 05:24:16,182 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 05:24:16,838 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 05:24:16,838 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 05:30:01,381 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 05:39:15,230 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 05:39:15,245 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 15 ms
+16-10-2019 05:39:15,245 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 05:39:15,245 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 05:39:16,368 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 05:39:17,039 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 05:39:17,039 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 05:40:01,031 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 05:50:00,060 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 05:54:15,356 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 05:54:15,356 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 05:54:15,356 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 05:54:15,356 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 05:54:16,432 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 05:54:17,072 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 05:54:17,072 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 06:00:00,365 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 06:09:15,557 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 06:09:15,557 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 06:09:15,557 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 06:09:15,557 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 06:09:16,665 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 06:09:17,367 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 06:09:17,367 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 06:10:01,312 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 06:20:01,047 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 06:24:15,782 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 06:24:15,782 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 06:24:15,782 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 06:24:15,782 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 06:24:16,984 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 06:24:17,686 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 06:24:17,686 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 06:30:00,371 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 06:39:16,265 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 06:39:16,265 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 06:39:16,265 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 06:39:16,265 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 06:39:17,420 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 06:39:18,153 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 06:39:18,153 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 06:40:01,053 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 06:45:00,716 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect)\# Bytes in all Heaps
+16-10-2019 06:45:00,716 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect)\# of current physical Threads
+16-10-2019 06:50:00,050 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 06:50:01,017 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect)\# of Exceps Thrown
+16-10-2019 06:54:17,140 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 06:54:17,140 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 06:54:17,140 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 06:54:17,140 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 06:54:18,482 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 06:54:19,386 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 06:54:19,386 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 07:00:00,387 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 07:00:01,042 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect)\# Bytes in all Heaps
+16-10-2019 07:00:01,042 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect)\# of current physical Threads
+16-10-2019 07:09:17,151 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 07:09:17,151 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 07:09:17,151 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 07:09:17,151 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 07:09:18,353 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 07:09:19,164 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 07:09:19,164 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 07:10:01,316 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 07:15:00,778 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect)\# Bytes in all Heaps
+16-10-2019 07:15:00,778 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect)\# of current physical Threads
+16-10-2019 07:20:01,033 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 07:20:01,953 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(CdsFileCompareAndIntersect)\# of Exceps Thrown
+16-10-2019 07:24:17,811 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 07:24:17,811 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 07:24:17,811 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 07:24:17,811 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 07:24:18,966 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 07:24:19,699 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 07:24:19,699 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 07:30:00,374 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 07:39:18,070 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 07:39:18,070 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 07:39:18,070 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 07:39:18,070 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 07:39:19,552 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 07:39:20,426 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 07:39:20,426 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 07:40:00,034 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 07:50:00,311 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 07:54:18,321 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 07:54:18,321 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 07:54:18,321 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 07:54:18,321 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 07:54:19,647 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 07:54:20,412 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 07:54:20,412 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 08:00:01,351 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 08:09:19,133 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 08:09:19,133 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 08:09:19,133 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 08:09:19,133 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 08:09:20,366 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 08:09:21,130 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 08:09:21,130 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 08:10:01,035 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 08:20:01,318 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 08:24:19,829 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 08:24:19,829 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 08:24:19,829 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 08:24:19,829 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 08:24:20,999 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 08:24:21,701 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 08:24:21,701 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 08:30:00,363 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 08:39:20,298 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 08:39:20,298 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 08:39:20,298 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 08:39:20,298 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 08:39:21,468 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 08:39:22,170 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 08:39:22,170 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 08:40:00,031 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 08:50:01,055 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 08:54:20,656 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 08:54:20,656 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 08:54:20,656 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 08:54:20,656 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 08:54:22,014 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 08:54:22,809 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 08:54:22,809 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 09:00:01,393 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 09:09:20,704 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 09:09:20,704 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 09:09:20,704 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 09:09:20,704 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 09:09:21,968 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 09:09:22,685 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 09:09:22,685 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 09:10:01,311 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 09:20:01,058 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 09:24:21,269 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 09:24:21,269 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 09:24:21,269 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 09:24:21,269 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 09:24:22,579 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 09:24:23,328 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 09:24:23,328 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 09:30:00,371 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 09:39:22,006 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 09:39:22,006 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 09:39:22,006 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 09:39:22,022 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 09:39:23,332 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 09:39:24,159 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 09:39:24,159 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 09:40:01,302 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 09:50:01,046 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 09:54:22,972 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 09:54:22,972 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 09:54:22,972 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 09:54:22,972 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 09:54:24,127 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 09:54:24,891 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 09:54:24,891 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 10:00:00,385 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 10:09:23,470 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 10:09:23,470 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 10:09:23,470 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 10:09:23,470 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 10:09:24,687 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 10:09:25,498 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 10:09:25,498 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 10:10:01,300 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 10:20:01,311 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 10:24:24,143 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 10:24:24,175 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 32 ms
+16-10-2019 10:24:24,175 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 10:24:24,175 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 10:24:25,391 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 10:24:26,140 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 10:24:26,140 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 10:30:01,401 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 10:39:24,724 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 10:39:24,724 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 10:39:24,724 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 10:39:24,724 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 10:39:26,315 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 10:39:27,267 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 10:39:27,267 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 10:40:00,042 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 10:50:00,318 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 10:54:24,865 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 10:54:24,865 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 10:54:24,865 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 10:54:24,865 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 10:54:26,643 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 10:54:27,673 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 10:54:27,673 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 11:00:01,388 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 11:09:25,096 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 11:09:25,096 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 11:09:25,096 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 11:09:25,096 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 11:09:26,812 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 11:09:27,904 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 11:09:27,904 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 11:10:01,038 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 11:20:00,318 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 11:20:01,051 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Exceptions(powershell)\# of Exceps Thrown
+16-10-2019 11:20:01,051 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(powershell)\# Bytes in all Heaps
+16-10-2019 11:20:01,051 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(powershell)\# of current physical Threads
+16-10-2019 11:24:25,319 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 11:24:25,319 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 11:24:25,319 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 11:24:25,319 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 11:24:27,191 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 11:24:28,423 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 11:24:28,423 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 11:30:01,426 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 11:39:25,354 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 11:39:25,354 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 11:39:25,354 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 11:39:25,354 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 11:39:27,288 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 11:39:28,521 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 11:39:28,521 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 11:40:00,298 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 11:50:01,075 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 11:54:26,325 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 11:54:26,325 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 11:54:26,325 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 11:54:26,325 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 11:54:28,228 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 11:54:29,398 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 11:54:29,398 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 12:00:01,445 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 12:09:26,450 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 12:09:26,450 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 12:09:26,450 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 12:09:26,450 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 12:09:28,212 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 12:09:29,320 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 12:09:29,320 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 12:10:01,316 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 12:20:00,313 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 12:24:27,076 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 12:24:27,076 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 12:24:27,076 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 12:24:27,076 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 12:24:29,026 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 12:24:30,165 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 12:24:30,165 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 12:30:01,405 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 12:39:28,078 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 12:39:28,078 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 12:39:28,078 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 12:39:28,078 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 12:39:29,810 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 12:39:30,995 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 12:39:30,995 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 12:40:00,058 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 12:50:01,052 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 12:54:28,641 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 12:54:28,641 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 12:54:28,641 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 12:54:28,641 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 12:54:30,404 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 12:54:31,559 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 12:54:31,559 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 13:00:01,376 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 13:09:29,376 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 13:09:29,376 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 13:09:29,376 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 13:09:29,376 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 13:09:31,170 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 13:09:32,309 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 13:09:32,309 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 13:10:01,060 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 13:20:01,055 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 13:24:30,267 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 13:24:30,267 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 13:24:30,267 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 13:24:30,267 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 13:24:32,295 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 13:24:33,527 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 13:24:33,543 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 13:30:00,366 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 13:30:01,068 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect)\# Bytes in all Heaps
+16-10-2019 13:30:01,068 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect)\# of current physical Threads
+16-10-2019 13:39:30,911 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 13:39:30,911 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 13:39:30,911 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 13:39:30,911 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 13:39:32,985 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 13:39:34,249 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 13:39:34,249 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 13:40:01,331 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 13:50:01,309 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 13:54:31,722 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 13:54:31,722 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 13:54:31,722 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 13:54:31,722 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 13:54:33,828 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 13:54:35,123 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 13:54:35,123 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 14:00:01,432 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 14:00:02,243 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR Memory(CdsFileCompareAndIntersect)\# Bytes in all Heaps
+16-10-2019 14:00:02,243 EDT ERROR [dotnet-0] [ScheduleThread@426] Metric Value not found: \.NET CLR LocksAndThreads(CdsFileCompareAndIntersect)\# of current physical Threads
+16-10-2019 14:09:32,598 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 14:09:32,598 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 14:09:32,598 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 14:09:32,598 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 14:09:34,548 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 14:09:35,749 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 14:09:35,749 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 14:10:00,319 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 14:20:00,299 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 14:24:32,647 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 14:24:32,647 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 14:24:32,663 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 14:24:32,663 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 14:24:34,784 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 14:24:36,048 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 14:24:36,048 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 14:30:01,374 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 14:39:33,382 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 14:39:33,382 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 14:39:33,382 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 14:39:33,382 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 14:39:35,239 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 14:39:36,362 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 14:39:36,362 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 14:40:01,322 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 14:50:01,334 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 14:54:33,433 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 14:54:33,433 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 14:54:33,433 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 14:54:33,433 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 14:54:35,274 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 14:54:36,397 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 14:54:36,397 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 15:00:01,345 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 15:09:34,231 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 15:09:34,231 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 15:09:34,231 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 15:09:34,231 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 15:09:36,103 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 15:09:37,242 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 15:09:37,242 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 15:10:01,047 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 15:20:00,061 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 15:24:35,045 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 15:24:35,045 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 15:24:35,045 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 15:24:35,045 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 15:24:36,886 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 15:24:38,040 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 15:24:38,040 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 15:30:00,400 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 15:39:35,795 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 15:39:35,795 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 15:39:35,795 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 15:39:35,795 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 15:39:37,745 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 15:39:38,915 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 15:39:38,993 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 15:40:01,067 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 15:50:00,299 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 15:54:36,031 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 15:54:36,031 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 15:54:36,031 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 15:54:36,031 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 15:54:37,841 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 15:54:39,042 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 15:54:39,042 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 16:00:00,403 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 16:09:36,109 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 16:09:36,109 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 16:09:36,109 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 16:09:36,109 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 16:09:37,919 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 16:09:39,042 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 16:09:39,042 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
+16-10-2019 16:10:01,054 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 16:20:00,303 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 16:20:24,031 EDT INFO  [commandlistener-generic-0] [LiveDataCommandsService@69] Asked to invoke getData for gce
+16-10-2019 16:20:24,031 EDT INFO  [commandlistener-generic-0] [LiveDataPluginManager@80] invoking the generic command executor's getData method
+16-10-2019 16:20:24,046 EDT INFO  [commandlistener-generic-0] [LiveDataPluginManager@83] created instance of command executor com.mindtree.mwatch.hq.agent.AgentCommandExecutor@71d7871e
+16-10-2019 16:20:24,046 EDT INFO  [Thread-190] [AgentCommandExecutor@87] starting the file cleaner at Wed Oct 16 16:20:24 EDT 2019
+16-10-2019 16:20:24,046 EDT INFO  [commandlistener-generic-0] [LiveDataPluginManager@87] handle to the reflectionmethod public java.lang.Object com.mindtree.mwatch.hq.agent.AgentCommandExecutor.getData(java.lang.String,org.hyperic.util.config.ConfigResponse) throws java.lang.Exception
+16-10-2019 16:20:24,046 EDT INFO  [commandlistener-generic-0] [AgentCommandExecutor@107] The valuetrue
+16-10-2019 16:20:24,046 EDT INFO  [commandlistener-generic-0] [AgentCommandExecutor@114] inside the getData of  AgentCommandExecutor
+16-10-2019 16:20:24,046 EDT INFO  [commandlistener-generic-0] [AgentCommandExecutor@116] passed command with command type is 2#false#.bat#echo “<PRE>”
+
+
+powershell "D:\Powershell\script\restart.ps1" > D:\Powershell\script\logs\output-%date:~-4,4%%date:~-7,2%%date:~-10,2%-%time:~0,2%%time:~3,2%%time:~6,2%.LOG
+
+echo “</PRE>”
+echo “9998”
+16-10-2019 16:20:24,046 EDT INFO  [commandlistener-generic-0] [LiveDataPluginManager@91] received result {commandOutput=PGNvbW1hbmRPdXRwdXQ+PGNvbW1hbmQ+PCFbQ0RBVEFbbnVsbF1dPjwvY29tbWFuZD48ZXhpdFN0YXR1cz4wPC9leGl0U3RhdHVzPjxzZXNzaW9uSWQ+PC9zZXNzaW9uSWQ+PG91dHB1dD48IVtDREFUQVtDOlxtd2F0Y2hcaHlwZXJpYy1ocS1hZ2VudC01LjguM19XaW5kb3dzXzY0X0JpdFxoeXBlcmljLWhxLWFnZW50LTUuOC4zXHdyYXBwZXJcc2JpblwuLlwuLlxidW5kbGVzXGFnZW50LTUuOC4zXHRtcFxnY2VzY3JpcHRzXDE1NzEyNTcyMjQwNDYuYmF0XV0+PC9vdXRwdXQ+PC9jb21tYW5kT3V0cHV0Pg==}
+16-10-2019 16:20:24,156 EDT INFO  [Thread-190] [AgentCommandExecutor@91] the file cleaner completed at Wed Oct 16 16:20:24 EDT 2019
+16-10-2019 16:20:24,561 EDT INFO  [commandlistener-generic-0] [LiveDataCommandsService@69] Asked to invoke getData for gce
+16-10-2019 16:20:24,561 EDT INFO  [commandlistener-generic-0] [LiveDataPluginManager@80] invoking the generic command executor's getData method
+16-10-2019 16:20:24,561 EDT INFO  [commandlistener-generic-0] [LiveDataPluginManager@83] created instance of command executor com.mindtree.mwatch.hq.agent.AgentCommandExecutor@37167251
+16-10-2019 16:20:24,561 EDT INFO  [commandlistener-generic-0] [LiveDataPluginManager@87] handle to the reflectionmethod public java.lang.Object com.mindtree.mwatch.hq.agent.AgentCommandExecutor.getData(java.lang.String,org.hyperic.util.config.ConfigResponse) throws java.lang.Exception
+16-10-2019 16:20:24,561 EDT INFO  [commandlistener-generic-0] [AgentCommandExecutor@107] The valuetrue
+16-10-2019 16:20:24,561 EDT INFO  [commandlistener-generic-0] [AgentCommandExecutor@114] inside the getData of  AgentCommandExecutor
+16-10-2019 16:20:24,561 EDT INFO  [commandlistener-generic-0] [AgentCommandExecutor@116] passed command with command type is 1#false#"C:\mwatch\hyperic-hq-agent-5.8.3_Windows_64_Bit\hyperic-hq-agent-5.8.3\wrapper\sbin\..\..\bundles\agent-5.8.3\tmp\gcescripts\1571257224046.bat" "0" "533510" "orlpafariav11 XSDataserver Process"
+16-10-2019 16:20:24,561 EDT INFO  [commandlistener-generic-0] [AgentCommandExecutor@158] passed config is 
+16-10-2019 16:21:10,162 EDT INFO  [commandlistener-generic-0] [LiveDataPluginManager@91] received result {commandOutput=PGNvbW1hbmRPdXRwdXQ+PGNvbW1hbmQ+PCFbQ0RBVEFbIkM6XG13YXRjaFxoeXBlcmljLWhxLWFnZW50LTUuOC4zX1dpbmRvd3NfNjRfQml0XGh5cGVyaWMtaHEtYWdlbnQtNS44LjNcd3JhcHBlclxzYmluXC4uXC4uXGJ1bmRsZXNcYWdlbnQtNS44LjNcdG1wXGdjZXNjcmlwdHNcMTU3MTI1NzIyNDA0Ni5iYXQiICIwIiAiNTMzNTEwIiAib3JscGFmYXJpYXYxMSBYU0RhdGFzZXJ2ZXIgUHJvY2VzcyJdXT48L2NvbW1hbmQ+PGV4aXRTdGF0dXM+MDwvZXhpdFN0YXR1cz48c2Vzc2lvbklkPjwvc2Vzc2lvbklkPjxvdXRwdXQ+PCFbQ0RBVEFbDQpDOlxtd2F0Y2hcaHlwZXJpYy1ocS1hZ2VudC01LjguM19XaW5kb3dzXzY0X0JpdFxoeXBlcmljLWhxLWFnZW50LTUuOC4zXHdyYXBwZXJcc2Jpbj5lY2hvIJMgMDxQUkUgMT6UIA0KDQpDOlxtd2F0Y2hcaHlwZXJpYy1ocS1hZ2VudC01LjguM19XaW5kb3dzXzY0X0JpdFxoeXBlcmljLWhxLWFnZW50LTUuOC4zXHdyYXBwZXJcc2Jpbj5wb3dlcnNoZWxsICJEOlxQb3dlcnNoZWxsXHNjcmlwdFxyZXN0YXJ0LnBzMSIgIDE+RDpcUG93ZXJzaGVsbFxzY3JpcHRcbG9nc1xvdXRwdXQtMjAxOTE2MTAtMTYyMDI0LkxPRyANCg0KQzpcbXdhdGNoXGh5cGVyaWMtaHEtYWdlbnQtNS44LjNfV2luZG93c182NF9CaXRcaHlwZXJpYy1ocS1hZ2VudC01LjguM1x3cmFwcGVyXHNiaW4+ZWNobyCTIDA8L1BSRSAxPpQgDQoNCkM6XG13YXRjaFxoeXBlcmljLWhxLWFnZW50LTUuOC4zX1dpbmRvd3NfNjRfQml0XGh5cGVyaWMtaHEtYWdlbnQtNS44LjNcd3JhcHBlclxzYmluPmVjaG8gkzk5OTiUIA0Kkzk5OTiUDQpdXT48L291dHB1dD48ZXJyb3I+PCFbQ0RBVEFbVGhlIHN5c3RlbSBjYW5ub3QgZmluZCB0aGUgZmlsZSBzcGVjaWZpZWQuDQpUaGUgc3lzdGVtIGNhbm5vdCBmaW5kIHRoZSBmaWxlIHNwZWNpZmllZC4NCl1dPjwvZXJyb3I+PC9jb21tYW5kT3V0cHV0Pg==}
+16-10-2019 16:24:36,114 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
+16-10-2019 16:24:36,114 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
+16-10-2019 16:24:36,114 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=eth10, address=10.22.224.201, netmask=255.255.255.0, mac=00:50:56:9D:12:F0
+16-10-2019 16:24:36,114 EDT INFO  [autoinventory-scanner] [SigarPlatformDetector@305] adding interface name=lo0, address=127.0.0.1, netmask=255.0.0.0, mac=00:00:00:00:00:00
+16-10-2019 16:24:38,360 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
+16-10-2019 16:24:39,561 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
+16-10-2019 16:24:39,561 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway

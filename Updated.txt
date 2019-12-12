@@ -1,0 +1,91 @@
+#Deleting the user in the fileserver based on the SamAccountName
+$users = Import-Csv "C:\Users\admin_knavalgu\Desktop\new.csv"
+
+$folder = "\\orlpd2vdifilev1\E$\vdi_shares\VDIUserRedirection"
+$folder2 = "\\orlpd2vdifilev1\E$\vdi_shares\VDIUserProfiles"
+
+$contents = $users.SamAccountName
+
+$users_new = New-Object System.Collections.ArrayList
+
+foreach ($content in $contents)
+{
+   #$users_new.Add($content.replace(" ","")) | Out-Null
+$users_new.Add($content) | Out-Null
+}
+
+
+foreach ($user in $users_new)
+{
+
+$combo1 = "$user"
+   
+   ####FOLDER 1
+   if(Test-Path -Path $folder\$combo1 )
+    {
+	   Write-Host "$user's profile exists in $folder as $combo1. Removing the directory..."
+       Remove-Item "$folder\$combo1" -Recurse -Force
+	   if(!(Test-Path -Path $folder\$combo1 ))
+	   {
+			Write-Host "$combo1 VDI profile removed from $folder"
+	   }
+	   else
+	   {
+			Write-Host "$combo1 VDI profile is not completely removed from $folder, requires manual intervention." -ForegroundColor Red
+		}
+    }
+
+	elseif(Test-Path -Path $folder\old_$combo1 )
+	{
+    {
+	   Write-Host "old_$combo1 profile exists in $folder as old_$combo1. Removing the directory..."
+       Remove-Item "$folder\old_$combo1" -Recurse -Force
+       if(!(Test-Path -Path $folder\$combo1 ))
+	   {
+			Write-Host "old_$combo1 VDI profile removed from $folder"
+	   }
+	   else
+	   {
+			Write-Host "$old_combo1 VDI profile is not completely removed from $folder, requires manual intervention." -ForegroundColor Red
+	   }
+    }
+	}
+    else
+    {
+        Write-Host "The $combo1 profile doesn't exists in $folder." -ForegroundColor Red
+    }
+
+    ####FOLDER 2
+    if(Test-Path -Path $folder2\$combo1 )
+    {
+       Write-Host "$user's profile exists in $folder2 as $combo1. Removing the directory..."
+	   Remove-Item "$folder2\$combo1" -Recurse -Force
+	   if(!(Test-Path -Path $folder2\$combo1 ))
+	   {
+			Write-Host "$combo1 VDI profile removed from $folder2"
+	   }
+	   else
+	   {
+			Write-Host "$combo1 VDI profile is not completely removed from $folder2, requires manual intervention." -ForegroundColor Red
+		}
+    }
+    elseif(Test-Path -Path $folder2\old_$combo1 )
+	{
+    {
+	   Write-Host "$user's profile exists in $folder2 as old_$combo1. Removing the directory..."
+	   Remove-Item "$folder2\$combo1" -Recurse -Force
+	   if(!(Test-Path -Path $folder2\old_$combo1 ))
+	   {
+			Write-Host "old_$combo1 VDI profile removed from $folder2"
+	   }
+	   else
+	   {
+			Write-Host "old_$combo1 VDI profile is not completely removed from $folder2, requires manual intervention." -ForegroundColor Red
+	   }
+	}
+	}
+	else
+	{
+        Write-Host "The $combo1 profile doesn't exists in $folder2"
+    }
+}
