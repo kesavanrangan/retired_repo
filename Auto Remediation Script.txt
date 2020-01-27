@@ -1,8 +1,0 @@
-@ echo off
-echo ^<PRE^>
-
-
-powershell "D:\Powershell\script\restart.ps1" > D:\Powershell\script\logs\output-%date:~-4,4%%date:~-7,2%%date:~-10,2%-%time:~0,2%%time:~3,2%%time:~6,2%.LOG
-
-echo ^</PRE^>
-echo 9998
