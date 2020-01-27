@@ -666,7 +666,7 @@
 16-10-2019 13:39:32,985 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:CDS1_V1LogMonitoring
 16-10-2019 13:39:34,249 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:MXP_CPLogMonitoring
 16-10-2019 13:39:34,249 EDT INFO  [autoinventory-scanner] [AutoDiscovery@26] Server found:Mediagateway
-16-10-2019 13:40:01,331 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
+16-10-2019 13:40:01,331 EDT ERROR [system-s0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
 16-10-2019 13:50:01,309 EDT ERROR [system-0] [CollectorResult@97] NumberFormatException: ResultValue=0x80244022
 16-10-2019 13:54:31,722 EDT INFO  [autoinventory-scanner] [ScanManager@139] starting default scan
 16-10-2019 13:54:31,722 EDT INFO  [autoinventory-scanner] [ScanManager@141] default scan complete 0 ms
