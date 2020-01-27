@@ -1,0 +1,90 @@
+[33mcommit 8256d68269c38a70790713ba78827104e3a284da[m[33m ([m[1;36mHEAD -> [m[1;32mfeature_2[m[33m, [m[1;31mjunit/feature_1[m[33m, [m[1;32mfeature_1[m[33m)[m
+Author: Kesavan Rangan <kesavanrangan@gmail.com>
+Date:   Tue Jan 28 01:29:33 2020 +0530
+
+    test
+
+[33mcommit 82c13b26f07c62b9bed3553a861dc04d6ab42f2a[m
+Author: Kesavan Rangan <kesavanrangan@gmail.com>
+Date:   Tue Jan 28 01:28:07 2020 +0530
+
+    deleting the files
+
+[33mcommit a2b7d434e5841a8e24e6f37e5049d66850656e72[m
+Author: Kesavan Rangan <kesavanrangan@gmail.com>
+Date:   Tue Jan 28 01:25:39 2020 +0530
+
+    Another aupdate to branch
+
+[33mcommit 0515c126b0004a4a19d846ce26afdc603337168f[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;31mjunit/master[m[33m, [m[1;32mmaster[m[33m)[m
+Author: Kesavan Rangan <kesavanrangan@gmail.com>
+Date:   Tue Jan 28 01:23:17 2020 +0530
+
+    test1
+
+[33mcommit 89a620228f85408f52c8b8847eb89ab0feade1a9[m
+Merge: 0d0396e ccc101d
+Author: Kesavan Rangan <M1039737@mindtree.com>
+Date:   Sat Dec 14 16:25:43 2019 +0530
+
+    Merge branch 'feature_1'
+
+[33mcommit ccc101d9f64a18cc188424dd42197c6f5371128e[m
+Author: Kesavan Rangan <M1039737@mindtree.com>
+Date:   Fri Dec 13 19:24:19 2019 +0530
+
+    Test
+
+[33mcommit 0d0396ee078e413962eb6d2a89ffb238e8c300bf[m
+Author: Kesavan Rangan <M1039737@mindtree.com>
+Date:   Fri Dec 13 18:30:20 2019 +0530
+
+    Due file added
+
+[33mcommit 7dabf2916362d66ecaa236c09ead43e01e9a3571[m
+Author: Kesavan Rangan <M1039737@mindtree.com>
+Date:   Fri Dec 13 18:20:37 2019 +0530
+
+    test1
+
+[33mcommit f0a87bbbda46396223cf9e9adf377483fddd4278[m[33m ([m[1;31morigin/feature_1[m[33m)[m
+Author: Kesavan Rangan <M1039737@mindtree.com>
+Date:   Fri Dec 13 18:19:04 2019 +0530
+
+    test
+
+[33mcommit 0240e5037ec28718e73cf90e213f1a437770ee02[m
+Author: Kesavan Rangan <M1039737@mindtree.com>
+Date:   Fri Dec 13 03:53:39 2019 +0530
+
+    Hi
+
+[33mcommit 6629faae5db65041cc5cd1aa743f161fe7f01b82[m
+Author: Kesavan Rangan <M1039737@mindtree.com>
+Date:   Fri Dec 13 03:51:56 2019 +0530
+
+    test
+
+[33mcommit 10dfa6fae7ede8ccc88028d1554b03bc7702d8dc[m
+Author: Kesavan Rangan <M1039737@mindtree.com>
+Date:   Fri Dec 13 03:28:27 2019 +0530
+
+    test
+
+[33mcommit 2d4f09e94a0a482d3508aedeb1f99374fc7736d1[m
+Author: Kesavan Rangan <M1039737@mindtree.com>
+Date:   Fri Dec 13 02:40:48 2019 +0530
+
+    add
+
+[33mcommit 257599e04e7ae3883d217532642e86b61d6bba77[m
+Author: Kesavan Rangan <M1039737@mindtree.com>
+Date:   Fri Dec 13 01:52:51 2019 +0530
+
+    another commit
+
+[33mcommit 9530cb6a89c16550fff197d81fd5f0ee0ef72843[m
+Author: Kesavan Rangan <M1039737@mindtree.com>
+Date:   Fri Dec 13 01:47:58 2019 +0530
+
+    test message
